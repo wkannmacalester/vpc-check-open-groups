@@ -5,3 +5,16 @@ This is an AWS Config Rule written using the Rule Development Kit. It checks the
 
 How to deploy this rule
 ===================
+Follow the set-up instructions for the AWS rule development kit:
+https://github.com/awslabs/aws-config-rdk
+
+You must have an AWS account and sufficient permissions to manage the Config service, and to create S3 Buckets, Roles, and Lambda Functions. 
+
+Once you have rdk set up, you can download this repository and then deploy it from the location which you installed it ::
+
+$ rdk deploy vpc-check-open-groups
+
+The rule should then appear on your AWS Config page. 
+
+
+If you wish to implement the rule manually, you can find instructions here: https://github.com/awslabs/aws-config-rules
