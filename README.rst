@@ -11,7 +11,7 @@ Follow the set-up instructions for the AWS rule development kit:
 https://github.com/awslabs/aws-config-rdk
 
 
-Once you have rdk set up, you can download this repository and then deploy it from the location which you installed it ::
+Once you have rdk set up, you can download this repository and then deploy it directly from the directory in which you installed it ::
 
 $ rdk deploy vpc-check-open-groups
 
